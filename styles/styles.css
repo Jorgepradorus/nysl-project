@@ -1,0 +1,320 @@
+
+
+.image{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+background-color: beige;
+border: solid black;
+}
+
+.containerlogo{
+    height: 80px;
+    background-color:;
+    margin-block-end: 10px;
+}
+.logo{
+    background-color;
+
+    width: 80px;
+    height: 80px;
+}
+
+#photo{
+ width: 100%;
+}
+
+
+h1 { position: relative;
+    background-color:;
+    margin-bottom: 0%;
+    top: -80px;
+    left: 90px;
+ 
+}
+
+body {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-color:;
+}
+
+header {
+    background-color:;
+    height: 380px;
+}
+
+section {
+    background-color:;
+}
+
+
+h3 {
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: solid black;
+    margin-left: 0%;
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+}
+
+nav a {
+    font-size: 25px;
+    color: white;
+    background: blue;
+    text-decoration: none;
+    margin: 10px 20px 20px 10px;
+    padding: 2px 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 0px black;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+nav {
+    position: relative;
+    top: -325px;
+    left: 10%;
+}
+
+.menu{
+    height: 100%;
+background-color: blueviolet;
+}
+
+.verde{
+    background: green;
+}
+
+
+#niño {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 8px; 
+}
+
+#niñorubio {
+    border: 2px solid black;
+    border-radius: 8px; 
+}
+.information {
+        position: absolute;
+        top: 410px;
+        left: 350px;
+}
+
+.date {
+
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: -20px;
+    
+}
+
+.blockquote {
+    font-size: 20px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
+#niñosjugando {
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.inforabout {
+    width: 600px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    line-height: 18px;
+}
+
+#mission {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+#tosupport{
+    position: relative;
+    top: -40px;
+}
+#vision {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+#thenorthside{
+    position: relative;
+    top: -40px;
+}
+
+#generalinformation {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+#thenorthsideyouth{
+    position: relative;
+    top: -40px;
+}
+
+.please {
+
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    font-size: 18px;
+}
+
+table td{
+    padding-right: 60px;
+}
+
+.center{
+    text-align: center;
+  vertical-align: top;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+
+.rules{
+  position: relative;
+  top: -110px;
+}
+
+#fifa{
+    text-align: center;
+}
+
+.square{
+    list-style-type: square;
+}
+
+.letras{
+    list-style-type: lower-latin;
+}
+
+footer{
+    background-color: black;
+    color: rgb(204, 203, 203);
+    text-align: center;
+}
+
+form{
+    width: 70%;
+    padding-left: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+#regis{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 40%;
+}
+
+.registra{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    width: 36%;
+}
+
+input[type="adress"] {
+    width: 86%;
+}
+
+input[type="city"] {
+    width: 50%;
+}
+
+input[type="name2"]{
+    width: 325px;
+}
+
+input[type="date"] {
+    width: 30%;
+}
+
+input[type="radio"] {
+width: 1%;
+}
+
+input[type="parent"] {
+    width: 84%;
+}
+
+input[type="email"] {
+    width: 57%;
+}
+
+#first{
+    padding-right: 50px; 
+    display: inline;
+}
+
+#size{
+    padding-right: 50px;
+    display: inline;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: 50%;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    position: relative;
+    
+}
+
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+
+
+.contenedorlogo{
+    width: 50%;
+    
+     
+}
+#linkdn{
+    height: 30px;
+    width: 30px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px;
+    padding-left: 400px;
+}

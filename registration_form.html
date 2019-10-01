@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Rewgistration_form</title>
+</head>
+
+    <body>
+        
+        
+        <header>
+
+                    <div class="containerlogo">
+                        <img class="logo" src="./images/nysl_logo.png" alt="logo equipo">
+        
+                        <h1>NORTHSIDE YOUTH SOCCER LEAGUE</h1>
+        
+                    </div>
+                    <div class="image">
+                        <img id="photo" src="./images/design2_image1.jpg">
+                    </div>
+
+                
+                <h3>Registration Form</h3>
+                
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="aboutNYSL.html">About</a>
+                    <a href="game_info.html">Game Info</a>
+                    <a href="nysl_rules.html">NYSL Rules</a>   
+                    <a class="verde" href="registration_form.html">Registration Form</a>
+                    <a href="contact.html">Contact</a>  
+                     </nav>
+
+            
+         </header>
+
+            <section class="registra">
+
+            
+
+                <form action="./show_data.html" method="GET">
+
+                    <p id="regis"><strong>Registration Form</strong></p>
+
+                    Player’s First Name:<input class="name" type="Name" name="name" required>
+
+                    Last Name <input class="name" type="lastName" name="LastName" required><br><br>
+
+                    Street Adress:<input type="adress" name="adress"><br><br>
+
+                    City: <input type="city" name="City"> Zip Code:<input type="name2" maxlength="5" name="zipcode"><br><br>
+
+                    Birth Date (mm/dd/yyyy):<input type="date" name="date"> 
+
+                    Gender: <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="male"> Male<br><br>
+
+                    Grade: <input type="radio" name="School" value="Pre-School"> Pre-School <input type="radio" name="School" value="1st"> 1st <input type="radio" name="School" value="2nd"> 2nd
+                    <input type="radio" name="School" value="3rd"> 3rd <input type="radio" name="School" value="4th"> 4th <input type="radio" name="School" value="5th"> 5th<br><br>
+
+                    Parent/Guardian:<input type="parent" name="parent"><br><br>
+
+                    Contact Phone:<input type="tel" maxlength="9" name="contact phone" required> Contact Email <input type="email" name="email" required><br><br>
+
+                    <strong>Which elementary schools do you live near?</strong><br><br>
+
+                    <div id="first">
+                    First Closest School:
+                    <select name="firstSchool">
+                            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                          </select>
+                    </div>
+
+                    Second Closest School:
+                    <select name="secondSchool">
+                            <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                          </select>
+
+                          <br><br>
+
+                    <strong> What position(s) do you normally play?</strong>(check all that apply)<br><br>
+
+                    <input type="checkbox" name="position" value="fordward"> Fordward 
+                    <input type="checkbox" name="position" value="midfield"> Midfield
+                    <input type="checkbox" name="position" value="defense"> Defense 
+                    <input type="checkbox" name="position" value="goalkeeper"> Goalkeeper
+
+                          <br><br>
+
+                          <strong> What position(s) do you want to play?</strong>(check all that apply)<br><br>
+
+                          <input type="checkbox" name="position" value="fordward"> Fordward 
+                          <input type="checkbox" name="position" value="midfield"> Midfield
+                          <input type="checkbox" name="position" value="defense"> Defense 
+                          <input type="checkbox" name="position" value="goalkeeper"> Goalkeeper
+
+                          <br><br>
+
+                    <input type="checkbox" name="position" value="fordward"><strong> Already Have a Uniform</strong>
+
+                    <br><br>
+
+                    <div id="size">
+                            Jersey Size:
+                            <select name="jerseySize">
+                                    <option value="youth Small" selected>Youth Small</option>
+                                    <option value="youth Medium">Youth Medium</option>
+                                    <option value="youth Large">Youth Large</option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="extralarge">Extra-Large</option>
+                                  </select>
+                            </div>
+        
+                            Short Size:
+                            <select name="shortSize">
+                                    <option value="youth Small" selected>Youth Small</option>
+                                    <option value="youth Medium">Youth Medium</option>
+                                    <option value="youth Large">Youth Large</option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="extralarge">Extra-Large</option>
+                            </select>
+
+                            <br><br>
+
+                            <strong><u>Permission to Play</u></strong>
+                            <br>
+                            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                            Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                            accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                            employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                            on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                            sponsored activities, which transportation.
+                            <br>
+                            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                            cancellation policy and agree to its terms.
+
+                            <br><br><br>
+                            
+                            <input type="submit" value="Send">
+
+                            <br><br><br>
+
+                </form>
+
+             </section>
+
+
+            <footer>
+
+                    <p>Jorge Prado Rus - BootCamp Ubiqum 2019</p>
+
+
+                </footer>
+
+                <div class="contenedor2">
+
+                        <div class="contenedorlogo">
+
+                        <a href="https://www.linkedin.com/in/jorge-prado-rus-b64aa0162/"><img id="linkdn" src="./images/LinkedIn_logo_initials.png" alt="linkdin logo"></a>
+           
+                        </div>
+
+                    </div>
+            
+
+             
+    </body>
+
+    </html>
